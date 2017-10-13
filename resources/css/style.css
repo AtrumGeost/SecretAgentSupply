@@ -1,0 +1,22 @@
+html, body {
+  font-size: 18px;
+  font-family: Helvetica;
+  border: 0;
+}
+
+header {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.parent-container {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  width: 960px;
+}
