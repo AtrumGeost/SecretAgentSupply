@@ -33,3 +33,34 @@ header span {
   text-transform: uppercase;
   padding: 0.66rem 0;
 }
+
+.hero-banner {
+  height: 25rem;
+  background-image: url("../../resources/images/moto.jpeg");
+  background-size: cover;
+}
+
+.promo-text {
+  width: 25rem;
+  background-color: black;
+  color: white;
+  margin-top: 9rem;
+}
+
+.promo-text h1 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-left: 3rem;
+  margin-top: 0.25rem;
+  margin-bottom: 2rem;
+}
+
+.promo-text h4 {
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-left: 3rem;
+  margin-top: 2rem;
+
+}
