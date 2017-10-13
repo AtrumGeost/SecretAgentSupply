@@ -19,4 +19,17 @@ header {
 .container {
   display: flex;
   width: 960px;
+  align-items: center;
+}
+
+header img {
+  height: 1.5rem;
+  padding-left: 0.5rem;
+  padding-right: 1rem;
+}
+
+header span {
+  font-size: 1rem;
+  text-transform: uppercase;
+  padding: 0.66rem 0;
 }
