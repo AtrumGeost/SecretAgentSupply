@@ -195,4 +195,27 @@ footer {
     height: 15rem;
   }
 
+  .product.middle
+  {
+    display: none;
+  }
+
+  .product{
+    width: 90%;
+  }
+
+  #product {
+    justify-content:center;
+  }
+
+  .container-info {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .container.footer {
+    display: flex;
+    justify-content: center;
+  }
+
 }
