@@ -213,6 +213,10 @@ footer {
     justify-content: center;
   }
 
+  .info {
+    width: 90%;
+  }
+
   .container.footer {
     display: flex;
     justify-content: center;
