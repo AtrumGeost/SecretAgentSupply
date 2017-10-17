@@ -75,6 +75,13 @@ nav ul {
   justify-content: space-between;
 }
 
+.mobile-menu {
+  display: none;
+  justify-content: center;
+  width: 960px;
+  margin: 0 auto;
+}
+
 .menu {
   padding: 0.75rem 0;
   background-color: firebrick;
@@ -140,4 +147,52 @@ footer {
   background-color: black;
   color: white;
   height: 5rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  nav {
+    display: none;
+  }
+  .mobile-menu {
+    display: flex;
+  }
+
+  .product{
+    width: 47%;
+  }
+
+  .product.last
+  {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .promo-text {
+    width: 100%;
+    margin-top: 10rem;
+  }
+  .promo-text h1 {
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .promo-text h4 {
+    font-size: 0.77rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 2rem;
+    margin-top: 1rem;
+  }
+  .container.mobile {
+    align-items: flex-end;
+  }
+
+  .hero-banner {
+    height: 15rem;
+  }
+
 }
