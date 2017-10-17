@@ -191,6 +191,10 @@ footer {
     align-items: flex-end;
   }
 
+  .container-info {
+    width: 100%;
+  }
+
   .hero-banner {
     height: 15rem;
   }
