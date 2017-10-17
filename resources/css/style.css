@@ -126,6 +126,7 @@ nav ul {
 
 .info {
   width: 35%;
+  padding-bottom: 4rem;
 }
 
 .info #title{
@@ -133,4 +134,10 @@ nav ul {
   color: white;
   padding: 1rem 0 1rem 2rem;
   display:block;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  height: 5rem;
 }
